@@ -1,0 +1,21 @@
+modLoader="javafml"
+loaderVersion="[24,)"
+issueTrackerURL="https://github.com/Glitchfiend/ModTemplate/issues"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/mod-template"
+logoFile="mt_logo.png"
+
+[[mods]]
+    modId="modtemplate"
+    version="${version}"
+    displayName="Mod Template"
+	authors="Forstride"
+    description='''
+    Template mod to set up new projects faster
+    '''
+
+[[dependencies.sereneseasons]]
+    modId="forge"
+    mandatory=true
+    versionRange="[24,)"
+    ordering="NONE"
+    side="BOTH"
