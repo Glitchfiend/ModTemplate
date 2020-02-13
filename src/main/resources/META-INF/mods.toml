@@ -13,7 +13,7 @@ logoFile="mt_logo.png"
     Template mod to set up new projects faster
     '''
 
-[[dependencies.sereneseasons]]
+[[dependencies.modtemplate]]
     modId="forge"
     mandatory=true
     versionRange="[24,)"

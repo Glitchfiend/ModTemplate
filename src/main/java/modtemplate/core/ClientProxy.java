@@ -1,4 +1,4 @@
-package sereneseasons.core;
+package modtemplate.core;
 
 public class ClientProxy extends CommonProxy
 {

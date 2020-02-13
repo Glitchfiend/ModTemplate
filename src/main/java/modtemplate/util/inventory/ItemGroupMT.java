@@ -1,14 +1,14 @@
-package sereneseasons.util.inventory;
+package modtemplate.util.inventory;
 
+import modtemplate.api.MTItems;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
-import sereneseasons.api.SSItems;
 
-public class ItemGroupSS extends ItemGroup
+public class ItemGroupMT extends ItemGroup
 {
-    public static final ItemGroupSS instance = new ItemGroupSS(ItemGroup.TABS.length, "tabSereneSeasons");
+    public static final ItemGroupMT instance = new ItemGroupMT(ItemGroup.TABS.length, "tabModTemplate");
 
-    private ItemGroupSS(int index, String label)
+    private ItemGroupMT(int index, String label)
     {
         super(index, label);
     }
@@ -16,6 +16,6 @@ public class ItemGroupSS extends ItemGroup
     @Override
     public ItemStack makeIcon()
     {
-        return new ItemStack(SSItems.ss_icon);
+        return new ItemStack(MTItems.mt_icon);
     }
 }

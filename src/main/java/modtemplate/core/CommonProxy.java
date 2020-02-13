@@ -1,4 +1,4 @@
-package sereneseasons.core;
+package modtemplate.core;
 
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;

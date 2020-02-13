@@ -1,3 +1,5 @@
 {
-  "itemGroup.tabModTemplate": "Mod Template"
+  "itemGroup.tabModTemplate": "Mod Template",
+  
+  "item.modtemplate.mt_icon": "MT Icon"
 }
